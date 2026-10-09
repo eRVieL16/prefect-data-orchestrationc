@@ -145,6 +145,10 @@ Buka file [.github/workflows/ci.yml](file:///c:/Users/Rivaldi/Documents/Papal/Pr
 4. Menjalankan seluruh test suite `pytest`.
 5. Memverifikasi apakah definisi Flow siap didaftarkan ke Prefect (*Deployability check*).
 
+> [!TIP]
+> **Panduan Lengkap Git & GitHub Actions untuk Pemula:**
+> Baca panduan langkah demi langkah [sesi-09/PANDUAN_GIT_CICD.md](file:///c:/Users/Rivaldi/Documents/Papal/Project/Prefect%20tutor/sesi-09/PANDUAN_GIT_CICD.md) untuk mempelajari cara menghubungkan repositori lokal ini ke GitHub dan menyaksikan robot CI Actions berjalan secara live!
+
 ---
 
 ## 4. Review 15 Menit (Lembar Refleksi Sesi 9)
