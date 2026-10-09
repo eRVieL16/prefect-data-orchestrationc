@@ -1,0 +1,10 @@
+# Prefect 3.x core
+prefect>=3.0.0
+
+# Data processing & storage (ringan & cepat untuk lokal ETL)
+duckdb>=1.0.0
+pandas>=2.0.0
+httpx>=0.27.0
+
+# Testing & quality
+pytest>=8.0.0

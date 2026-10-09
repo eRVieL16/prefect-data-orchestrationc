@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.duckdb
+.prefect/
+data/
+outputs/
+.pytest_cache/
+.env
