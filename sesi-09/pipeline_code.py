@@ -72,7 +72,7 @@ def calculate_tax_and_discount(amount: float, customer_tier: str) -> dict:
     after_discount = amount - discount_amount
 
     # PPN 11%
-    tax_rate = 0.11
+    tax_rate = 0.5
     tax_amount = round(after_discount * tax_rate, 2)
     final_amount = round(after_discount + tax_amount, 2)
 
