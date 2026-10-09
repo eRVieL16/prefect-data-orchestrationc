@@ -8,16 +8,16 @@ Buku panduan ini dirancang khusus untuk pemula yang ingin memahami dan menguasai
 
 ```mermaid
 graph LR
-    subgraph 1. Laptop Anda (Lokal)
+    subgraph "1. Laptop Anda (Lokal)"
         Code[Kode Pipeline & Test] -->|git add & commit| GitLocal[(Git Snapshot / .git)]
     end
 
-    subgraph 2. GitHub Cloud (Remote)
+    subgraph "2. GitHub Cloud (Remote)"
         GitLocal -->|git push origin main| GHRepo[(GitHub Repository)]
     end
 
-    subgraph 3. Otomatisasi CI/CD
-        GHRepo -->|Memicu Event Push| Runner[<b>GitHub Actions Runner</b><br/>(Ubuntu Server di Cloud)]
+    subgraph "3. Otomatisasi CI/CD"
+        GHRepo -->|Memicu Event Push| Runner["<b>GitHub Actions Runner</b><br/>(Ubuntu Server di Cloud)"]
         Runner -->|1. Setup Python 3.12| S1[Install Python]
         S1 -->|2. pip install requirements| S2[Install Libs]
         S2 -->|3. pytest sesi-09/test_pipeline.py| S3{Semua Test Lolos?}
